@@ -1,0 +1,46 @@
+{
+  "name": "story",
+  "plural": "stories",
+  "base": "PersistedModel",
+  "properties": {
+    "assignee": {
+      "type": "string",
+      "required": true
+    },
+    "criteria": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "reporter": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "accessType": "*"
+    }
+  ],
+  "methods": []
+}

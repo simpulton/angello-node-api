@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "angelloDB",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "angelloDB",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "angelloDB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "angelloDB",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "angelloDB",
+    "public": false
+  },
+  "client": {
+    "dataSource": "angelloDB",
+    "public": true
+  },
+  "story": {
+    "dataSource": "angelloDB",
+    "public": true
+  },
+  "user": {
+    "dataSource": "angelloDB",
+    "public": true
+  }
+}

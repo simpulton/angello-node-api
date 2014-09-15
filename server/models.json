@@ -1,0 +1,20 @@
+"client": {
+"options": {
+"acls": [
+  {
+    "accessType": "*",
+    "permission": "ALLOW",
+    "principalType": "ROLE",
+    "principalId": "$everyone"
+  }
+]
+},
+"properties": {
+"orgName": {
+  "type": "string"
+}
+},
+"public": true,
+"dataSource": "db",
+"plural": "orgs"
+}

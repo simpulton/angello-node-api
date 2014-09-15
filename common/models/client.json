@@ -1,0 +1,31 @@
+{
+  "name": "client",
+  "plural": "clients",
+  "base": "PersistedModel",
+  "options": {
+    "base": "User"
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "stories": {
+      "type": "hasMany",
+      "model": "story",
+      "foreignKey": ""
+    },
+    "users": {
+      "type": "hasMany",
+      "model": "user",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "accessType": "*"
+    }
+  ],
+  "methods": []
+}

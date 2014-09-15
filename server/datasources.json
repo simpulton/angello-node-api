@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "angelloDB": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "angello",
+    "name": "angelloDB",
+    "connector": "mongodb"
+  }
+}
