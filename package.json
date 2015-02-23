@@ -2,6 +2,9 @@
   "name": "angello-api",
   "version": "0.0.0",
   "main": "server/server.js",
+  "engines": {
+    "node": "0.10.x"
+  },
   "scripts": {
     "pretest": "jshint ."
   },
